@@ -486,7 +486,7 @@ def reserve(rail_type="SRT", debug=False):
             (now + timedelta(days=i)).strftime("%Y/%m/%d %a"),
             (now + timedelta(days=i)).strftime("%Y%m%d"),
         )
-        for i in range(32)
+        for i in range(33)
     ]
     time_choices = [(f"{h:02d}", f"{h:02d}0000") for h in range(24)]
 
